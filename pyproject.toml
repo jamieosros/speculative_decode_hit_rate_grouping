@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "jamieosros-oplib_jd490"
+name = "jamieosros-speculative_decode_hit_rate_grouping"
 version = "0.1.0"
 description = "按结构键把条目聚类，标出算子库维护工程师·投机解码的命中率上的同组项与各组的代表样本"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://jamieosros.github.io"
-Repository = "https://github.com/jamieosros/oplib_jd490"
-Issues = "https://github.com/jamieosros/oplib_jd490/issues"
+Repository = "https://github.com/jamieosros/speculative_decode_hit_rate_grouping"
+Issues = "https://github.com/jamieosros/speculative_decode_hit_rate_grouping/issues"
 
 [project.scripts]
-oplib_jd490 = "oplib_jd490:main"
+speculative_decode_hit_rate_grouping = "speculative_decode_hit_rate_grouping:main"
 
 [tool.setuptools]
-py-modules = ["oplib_jd490"]
+py-modules = ["speculative_decode_hit_rate_grouping"]
